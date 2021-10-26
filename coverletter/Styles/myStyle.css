@@ -1,0 +1,127 @@
+@media(min-width: 768px){
+    
+   #main-column{
+       display: flex;
+       justify-content: flex-start;
+
+    
+    
+    }   
+}
+
+.container-2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main-column div, #Education div, #Experience div{
+    border: 1px black solid;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+
+body{
+	font-size: 110%;
+	background: #aecdd2;
+	color: #676463;
+	text-align: center;
+	
+	
+}
+
+h1{
+	color: black;
+}
+
+
+
+#Education{
+    
+    flex: 3;
+    justify-content: flex-start;    
+    
+}
+
+#Experience{
+    flex: 3;
+    justify-content: flex-end;
+    margin-left: 1%;
+}
+
+
+
+.pInfo{
+    flex: 1;
+    order: 2;
+    flex-basis: 12%;
+    text-align: left;
+    justify-content: flex-end;
+    border: 1px black solid;
+    padding: 10px;
+    margin-left: 1%;
+    
+}
+
+.skills-box{
+    flex: 3;
+    justify-content: flex-end;
+    flex-basis: 27%;
+    order: 1;
+    border: 1px black solid;
+    padding: 10px;
+    margin-top: 35px;   
+}
+
+.shadow{
+	/*text-shadow: 2px 2px;*/
+    text-align: center;
+}
+
+h2{
+	color: white;
+}
+
+h3{
+	color: #537471;
+}
+
+ul{
+	list-style-type: square;
+}
+
+.list{
+	list-style-type: circle;
+}
+
+/*Cover Letter body*/
+#cLMain{
+    text-align: justify;
+    background: white;
+    padding: 20px;
+}
+/*Cover Letter heading alignment*/
+.coverLHeading{
+    text-align: center;
+    image-orientation: center;
+}
+/*image aspects*/
+img {
+    border-radius: 50%;
+    max-width: 25%;
+    height: auto;
+   
+}
+/*center image*/
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+}
+    
+    
+   
+

@@ -1,0 +1,86 @@
+body{
+    background-color: #f6f6f9;
+    text-align: center;
+    color: black;
+    font-family: Helvetica;
+}
+    
+.show{
+    background-color: white;
+    color: black;
+    }
+
+.row{
+    margin-top: 100px;
+    min-height: 100px;
+    justify-content: space-between;
+}
+
+.csl{
+    margin-top: 100px;
+    min-height: 100px;
+    justify-content: space-between;
+}
+
+.card{
+    
+   color: black;
+    
+    
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.workh{
+    text-align: left;   
+}
+
+.request{
+    text-align: left;
+    color: #007bff
+}
+
+.workLink{
+    
+}
+   
+.pInfo{
+    text-align: left;
+    
+}
+
+.int{
+    align-content: flex-end;
+}
+
+.award{
+    color: black;
+}
+
+.achvmts{
+    text-align: left;
+}
+
+.accordion-body{
+    text-align: justify;
+}
+
+.date{
+    text-align: right;
+    color: black;
+}
+
+.special{
+    text-align: right;
+}
+
+.top{
+    color: black;
+}
+
+.h1{
+    color: black;
+}
+
